@@ -19,6 +19,7 @@ cc_binary(
     srcs = ["main.cpp"],
     deps = [
         "@heu//heu/experimental/gemini-rlwe:gemini_rlwe",
-        #"@seal",
+        "@yacl//yacl/link:factory",
+        "@yacl//yacl/link:context",
     ]
 )
