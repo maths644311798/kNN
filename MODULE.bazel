@@ -17,14 +17,14 @@ module(
     version = "0.1",
 )
 
-bazel_dep(name = "heu", version = "0.6.0b0")
 bazel_dep(name = "bazel_skylib", version = "1.7.1")
 bazel_dep(name = "bazel_features", version = "1.24.0")
 bazel_dep(name = "rules_python", version = "1.1.0")
 bazel_dep(name = "pybind11_bazel", version = "2.13.6")
 bazel_dep(name = "rules_cuda", version = "0.2.3")
 bazel_dep(name = "cereal", version = "1.3.2")
-bazel_dep(name = "platforms", version = "0.0.10")
+bazel_dep(name = "platforms", version = "0.0.11")
+bazel_dep(name = "yacl", version = "0.4.5b11-nightly-20250514")
 bazel_dep(name = "heu", version = "0.6.0b0")
 
 #non_module_dependencies = use_extension("//bazel:defs.bzl", "non_module_dependencies")
